@@ -1,0 +1,29 @@
+{
+  "name": "valiant-armory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "per-env",
+    "start:development": "nodemon server.js",
+    "start:production": "node server.js",
+    "heroku-postbuild": "npm install && npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kmcgee92/ValiantArmory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kmcgee92/ValiantArmory/issues"
+  },
+  "homepage": "https://github.com/Kmcgee92/ValiantArmory#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "per-env": "^1.0.2"
+  }
+}
