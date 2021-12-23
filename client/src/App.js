@@ -18,7 +18,7 @@ function App() {
       >
         Millies Place
       </header>
-      <h1>Thank Millie you are the best!</h1>
+      <h1>Thank You Millie you are the best!</h1>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div style={{ width: "80vw", paddingTop: "100px" }}>
           <Carousel autplay infiniteLoop transitionTime={500}>
