@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import logo from "./millsPlace.jpeg";
-import hairdresser from "./hairdresser.jpeg";
+import first from "./millsPlace.jpeg";
+import second from "./second.jpeg";
 import "./App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -23,7 +23,10 @@ function App() {
         <div style={{ width: "80vw", paddingTop: "100px" }}>
           <Carousel autplay infiniteLoop transitionTime={500}>
             <div>
-              <img src={logo} alt="asdasd" />
+              <img src={second} alt="asdasd" />
+            </div>
+            <div>
+              <img src={first} alt="asdasd" />
             </div>
           </Carousel>
         </div>
